@@ -1,5 +1,6 @@
 import turtle
 import paddles
+import ball
 
 #----------window setup----------#
 window = turtle.Screen()
