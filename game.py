@@ -1,13 +1,13 @@
 import turtle
+import paddles
 
-#window setup
+#----------window setup----------#
 window = turtle.Screen()
 window.title("Classic Pong")
 window.bgcolor("Black")
 window.setup(width=800, height=600)
 window.tracer(0)
 
-#Main game loop
+#----------Maingame loop----------#
 while True:
     window.update()
-    
