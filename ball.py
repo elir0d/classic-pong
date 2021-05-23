@@ -1,9 +1,12 @@
 import turtle
 
-#----------ball----------#
-ball = turtle.Turtle()
-ball.speed(0)
-ball.shape("square")
-ball.color("white")
-ball.penup()
-ball.goto(0, 0)
+#----------ball element----------#
+
+element = turtle.Turtle()
+element.speed(0)
+element.shape("square")
+element.color("white")
+element.penup()
+element.goto(0, 0)
+
+#----------ball element----------#
