@@ -27,12 +27,16 @@ window.onkeypress(paddles_control.paddle_left_down, "s")
 window.onkeypress(paddles_control.paddle_right_down, "Down")
 
 #----------Maingame loop-----------#
-while True:
-    # window FPS
-    window.update()
+def main():
+    while True:
+        # window FPS
+        window.update()
 
-    # Ball Movement
-    ball_direction.ball_x()
-    ball_direction.ball_y()
-    ball_direction.border_checker_y()
-    ball_direction.border_checker_x()
+        # Ball Movement
+        ball_direction.ball_x()
+        ball_direction.ball_y()
+        ball_direction.border_checker_y()
+        ball_direction.border_checker_x()
+
+if __name__ == "__main__":
+    main()
