@@ -1,3 +1,5 @@
+import turtle
+
 #----------ball----------#
 ball = turtle.Turtle()
 ball.speed(0)
