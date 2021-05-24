@@ -1,14 +1,24 @@
 import turtle
-import ball_direction
-import ball
-import paddles
+import ball_direction as bd
+import ball as b
+import paddles as p
+
+"""-------Caption------------
+|   rp == right_paddle      |
+|   lp == left_paddle       |
+|   e  == element           |
+--------------------------"""
 
 #----------Paddle Collision checker----------------#
 def collisions():
-    if (ball.element.xcor() > 340 and  ball.element.xcor() < 350) and (ball.element.ycor() < paddles.right_paddle.ycor() + 40 and ball.element.ycor() > paddles.right_paddle.ycor() -40):
-        ball.element.setx(340)
-        ball_direction.speed_dx *= -1
+    if (b.e.xcor() > 340 and  b.e.xcor() < 350) and\
+       (b.e.ycor() < p.rp.ycor() + 40 and b.e.ycor() > p.rp.ycor() -40):
+            
+            b.e.setx(340)
+            bd.speed_dx *= -1
 
-    if (ball.element.xcor() < -340 and  ball.element.xcor() > -350) and (ball.element.ycor() < paddles.left_paddle.ycor() + 40 and ball.element.ycor() > paddles.left_paddle.ycor() -40):
-        ball.element.setx(-340)
-        ball_direction.speed_dx *= -1
+    if (b.e.xcor() < -340 and  b.e.xcor() > -350) and\
+       (b.e.ycor() < p.lp.ycor() + 40 and b.e.ycor() > p.lp.ycor() -40):
+            
+            b.e.setx(-340)
+            bd.speed_dx *= -1
