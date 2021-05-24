@@ -38,9 +38,10 @@ def main():
         # Ball Movement
         ball_direction.ball_x()
         ball_direction.ball_y()
+
+        # colissions checker
         ball_direction.border_checker_y()
         ball_direction.border_checker_x()
-
         paddle_collisions.collisions()
 
 if __name__ == "__main__":
