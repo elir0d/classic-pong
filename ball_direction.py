@@ -16,7 +16,7 @@ def ball_y():
     ball_y = ball.element.ycor()
     ball_y = ball.element.sety(ball_y + speed_dy)
 
-#----------Border Colision check-----#
+#----------Border Collision check-----#
 def border_checker_y():
     global speed_dy, speed_dx
     if ball.element.ycor() > 290:
