@@ -2,6 +2,8 @@
 
 import sys
 import turtle
+import os
+import time
 
 #----------Modules-----------------#
 
@@ -9,6 +11,7 @@ import ball
 import paddles
 import paddles_control
 import ball_direction
+import paddle_collisions
 
 #----------window setup------------#
 
@@ -29,7 +32,7 @@ window.onkeypress(paddles_control.paddle_right_down, "Down")
 #----------Maingame loop-----------#
 def main():
     while True:
-        # window FPS
+        # window FTP
         window.update()
 
         # Ball Movement
@@ -37,6 +40,8 @@ def main():
         ball_direction.ball_y()
         ball_direction.border_checker_y()
         ball_direction.border_checker_x()
+
+        paddle_collisions.collisions()
 
 if __name__ == "__main__":
     main()
