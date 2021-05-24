@@ -1,7 +1,7 @@
 import time
 import turtle
 import ball
-#----------Pixel Directions----------#
+#----------Speed and Directions------#
 
 speed_dx = ball.element.dx = 0.1
 speed_dy = ball.element.dy = 0.1

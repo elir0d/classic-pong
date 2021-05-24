@@ -22,8 +22,8 @@ window.tracer(0)
 
 window.listen()
 window.onkeypress(paddles_control.paddle_left_up, "w")
-window.onkeypress(paddles_control.paddle_right_up, "Up")
 window.onkeypress(paddles_control.paddle_left_down, "s")
+window.onkeypress(paddles_control.paddle_right_up, "Up")
 window.onkeypress(paddles_control.paddle_right_down, "Down")
 
 #----------Maingame loop-----------#
