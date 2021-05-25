@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="/Capture.jpg" alt="Project logo"></a>
+ <img width=400px height=300px src="https://raw.githubusercontent.com/vanpyre/classic-pong/develop/Capture.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Classic Pong</h3>
@@ -9,8 +9,9 @@
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub issues](https://img.shields.io/github/issues/vanpyre/classic-pong?color=flat&label=issues&logo=issues)](https://github.com/vanpyre/classic-pong/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/vanpyre/classic-pong?color=flat&label=pull%20requests&logo=open)
 [![GitHub license](https://img.shields.io/github/license/vanpyre/classic-pong?color=flat&label=License&logo=License)](https://github.com/vanpyre/classic-pong/blob/main/LICENSE.MD)
+
 </div>
 
 ---
