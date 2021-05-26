@@ -47,7 +47,7 @@ You need to have installed python 3 for this project. After that, install turtle
 What things you need to install the software and how to install them:
 * Python 3.9.2
 * pip 21.1.2
-* Turtle 5.4.1
+* Turtle 0.0.1
    
 
 
