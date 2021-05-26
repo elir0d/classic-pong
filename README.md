@@ -7,10 +7,18 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub issues](https://img.shields.io/github/issues/vanpyre/classic-pong?color=flat&label=issues&logo=issues)](https://github.com/vanpyre/classic-pong/issues)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/vanpyre/classic-pong?color=flat&label=pull%20requests&logo=open)
-[![GitHub license](https://img.shields.io/github/license/vanpyre/classic-pong?color=flat&label=License&logo=License)](https://github.com/vanpyre/classic-pong/blob/main/LICENSE.MD)
+[![python](https://img.shields.io/badge/Python-016c8c?style=f&logo=python&logoColor=yellow)](https://www.python.org/)
+
+[![Status](https://img.shields.io/badge/status-active-flat)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
+[![GitHub issues](https://img.shields.io/github/issues/vanpyre/classic-pong?color=flat&label=issues&logo=github&logoColor=red)](https://github.com/vanpyre/classic-pong/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/vanpyre/classic-pong?color=flat&label=pull%20requests&logo=github&logoColor=green)](https://github.com/vanpyre/classic-pong/pulls)
+[![GitHub license](https://img.shields.io/github/license/vanpyre/classic-pong?color=flat&logo=gnu)](https://github.com/vanpyre/classic-pong/blob/main/LICENSE.MD)
+![Travis (.org)](https://img.shields.io/travis/vanpyre/classic-pong?logo=travis&color=red)
+![Netlify](https://img.shields.io/netlify/80034408-1313-4786-acbd-fcc665f1c608?logo=netlify)
+[![Open Source](https://badgen.net/badge/Open%20Source%20/Yes%21/green?icon=https://www.vectorlogo.zone/logos/opensource/opensource-icon.svg)](https://github.com/OpenSourceOrg)
+[![vscode](https://img.shields.io/badge/IDE-VSCODE-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
+
+
 
 </div>
 
@@ -47,7 +55,7 @@ You need to have installed python 3 for this project. After that, install turtle
 What things you need to install the software and how to install them:
 * Python 3.9.2
 * pip 21.1.2
-* Turtle 5.4.1
+* Turtle 0.0.1
    
 
 
