@@ -8,7 +8,7 @@
 <div align="center">
 
 [![python](https://img.shields.io/badge/Python-016c8c?style=f&logo=python&logoColor=yellow)](https://www.python.org/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/80034408-1313-4786-acbd-fcc665f1c608/deploy-status?logo=netlify)](https://app.netlify.com/sites/classicpong/deploys)
+![Netlify Status](https://api.netlify.com/api/v1/badges/80034408-1313-4786-acbd-fcc665f1c608/deploy-status?logo=netlify)
 
 [![Status](https://img.shields.io/badge/status-active-flat?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
 [![GitHub issues](https://img.shields.io/github/issues/vanpyre/classic-pong?color=flat&label=issues&logo=github&logoColor=red)](https://github.com/vanpyre/classic-pong/issues)
