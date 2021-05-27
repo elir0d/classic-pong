@@ -71,13 +71,12 @@ and update if you need :
    python -m pip install --upgrade pip
    ```
 
-1. Installing Turtle Module \* :
+1. Installing dependencies :
    
 
    ```
-   pip install turtle
+   pip install -r turtle requirements.txt
    ```
-      \* This is the best way to install Turtle module
 <br>
 
 <!-- ## 🔧 Running the tests <a name = "tests"></a>
