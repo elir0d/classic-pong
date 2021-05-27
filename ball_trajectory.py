@@ -1,6 +1,4 @@
 import ball
-import time
-import score as sc
 import turtle
 #----------Speed and Directions------#
 
@@ -13,8 +11,8 @@ ball_speed = 0.1
 # the results of each# border collision# to 
 # help "score" module to tracking de current score
 
-A = False # seted as global
-B = False # seted as global
+A = False # set as global
+B = False # set as global
 
 #----------X and Y functions---------#
 

@@ -48,6 +48,5 @@ def main():
         ball_trajectory.border_checker_x()
         paddle_collisions.collisions()
         
-
 if __name__ == "__main__":
     main()
