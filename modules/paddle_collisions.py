@@ -1,7 +1,7 @@
 import turtle
-import ball_trajectory as bd
-import ball as b
-import paddles as p
+import modules.ball_trajectory as bd
+import modules.ball as b
+import modules.paddles as p
 
 """-------Caption------------
 |   rp == right_paddle      |

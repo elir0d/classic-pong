@@ -1,5 +1,5 @@
 import turtle
-import paddles
+import modules.paddles as paddles
 
 # increment #
 i = 20

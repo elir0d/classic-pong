@@ -1,5 +1,5 @@
-import ball
 import turtle
+import modules.ball as ball
 
 #----------Speed and Directions------#
 
