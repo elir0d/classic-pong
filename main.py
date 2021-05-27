@@ -1,16 +1,17 @@
 #----------Library-----------------#
 
-import sys
-import turtle
 import os
+import sys
 import time
+import turtle
 
 #----------Modules-----------------#
 
 import ball
+import score
 import paddles
 import paddles_control
-import ball_direction
+import ball_trajectory
 import paddle_collisions
 
 #----------window setup------------#
@@ -36,13 +37,17 @@ def main():
         window.update()
 
         # Ball Movement
-        ball_direction.ball_x()
-        ball_direction.ball_y()
+        ball_trajectory.ball_x()
+        ball_trajectory.ball_y()
+
+        # Tracking score after check each collisions
+        score.score_tracking()
 
         # colissions checker
-        ball_direction.border_checker_y()
-        ball_direction.border_checker_x()
+        ball_trajectory.border_checker_y()
+        ball_trajectory.border_checker_x()
         paddle_collisions.collisions()
+        
 
 if __name__ == "__main__":
     main()
