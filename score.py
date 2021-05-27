@@ -1,11 +1,13 @@
-import ball
 import turtle
 import ball_trajectory as ball_t
+
+#----------score-variables---------#
 
 score_a = 0
 score_b = 0
 
-#----------Defining score----------#
+#-----------scoreboard-------------#
+
 players_score = turtle.Turtle()
 players_score.speed(0)
 players_score.color("White")
@@ -13,20 +15,20 @@ players_score.penup()
 players_score.hideturtle()
 players_score.goto(0, 260)
 
+#----------Printing-score----------#
 
-#----------Printing score----------#
-def inicial_score():
-    players_score.write(f"Player A: {score_a}   "   f"Player B: {score_b} ",\
-                        align="center", font=("Courier", 24, "normal"))
-
-def reset_score():
-    global score_a, score_b
-    players_score.clear()
+def initial_score():
+    players_score.write(f"Player A: {score_a}\   "   f"Player B: {score_b} ",\
+    align="center", font=("Courier", 24, "normal"))
 
 def update_score():
     global score_a, score_b
     players_score.write(f"Player A: {score_a}   "   f"Player B: {score_b} ",\
-                        align="center", font=("Courier", 24, "normal"))
+    align="center", font=("Courier", 24, "normal"))
+
+def reset_score():
+    global score_a, score_b
+    players_score.clear()
 
 def score_tracking():
     global score_a, score_b
@@ -42,9 +44,7 @@ def score_tracking():
         update_score()
         ball_t.B = False
 
-
-inicial_score()
-
-
-
+#--------functions-call-----------#
+initial_score()
 score_tracking()
+#---------------------------------#

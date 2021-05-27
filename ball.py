@@ -8,5 +8,7 @@ element.color("white")
 element.penup()
 element.goto(0, 0)
 
-#----------ball element shorcut----------#
+#----------ball element----------#
+
+# alias #
 e = element
