@@ -75,7 +75,7 @@ and update if you need :
    
 
    ```
-   pip install -r turtle requirements.txt
+   pip install -r requirements.txt
    ```
 <br>
 
