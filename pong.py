@@ -7,12 +7,12 @@ import turtle
 
 #----------Modules-----------------#
 
-import modules.ball              as  ball
-import modules.score             as  score
-import modules.paddles           as  paddles
-import modules.paddles_control   as  paddles_control
-import modules.ball_trajectory   as  ball_trajectory
-import modules.paddle_collisions as  paddle_collisions
+import modules.ball              as ball
+import modules.paddles           as paddles
+import modules.scoreboard        as scoreboard
+import modules.paddles_control   as paddles_control
+import modules.ball_trajectory   as ball_trajectory
+import modules.paddle_collisions as paddle_collisions
 
 #----------window setup------------#
 
@@ -41,7 +41,7 @@ def main():
         ball_trajectory.ball_y()
 
         # Tracking score after check each collisions
-        score.score_tracking()
+        scoreboard.score_tracking()
 
         # colissions checker
         ball_trajectory.border_checker_y()
