@@ -18,7 +18,7 @@ players_score.goto(0, 260)
 #----------Printing-score----------#
 
 def initial_score():
-    players_score.write(f"Player A: {score_a}\   "   f"Player B: {score_b} ",\
+    players_score.write(f"Player A: {score_a}   "   f"Player B: {score_b} ",\
     align="center", font=("Courier", 24, "normal"))
 
 def update_score():
