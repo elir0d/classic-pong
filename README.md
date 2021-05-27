@@ -1,6 +1,8 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img width=400px height=300px src="https://raw.githubusercontent.com/vanpyre/classic-pong/develop/Capture.jpg" alt="Project logo"></a>
+   <a href="" rel="noopener">
+   <img width=400px height=300px src=
+      "https://raw.githubusercontent.com/vanpyre/classic-pong/main/images/logo.jpg"
+       alt="Project logo"></a>
 </p>
 
 <h3 align="center">Classic Pong</h3>

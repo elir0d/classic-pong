@@ -1,18 +1,22 @@
 import ball
 import turtle
+
 #----------Speed and Directions------#
 
 ball_dx = ball.element.dx = 0.1
 ball_dy = ball.element.dy = 0.1
 
 ball_speed = 0.1
-#------------------------------------#
-# This two variables are responsible to send
-# the results of each# border collision# to 
-# help "score" module to tracking de current score
 
-A = False # set as global
-B = False # set as global
+"""-------------------------------------------------------
+| This two variables are responsible to send the results |
+| of each border collision to "score" module this help   |
+| "score" module to tracking de current score and update |
+| in the scoreboard.                                     |
+------------------------------------------------------"""
+
+A = False # set as global #
+B = False # set as global #
 
 #----------X and Y functions---------#
 
@@ -50,7 +54,7 @@ def border_checker_x():
 
 
 
-#prototype for increase speed after certain score
+#prototype for increase speed after certain score#
 # ball_dx += ball_speed
 # ball_dx += -ball_speed
     
