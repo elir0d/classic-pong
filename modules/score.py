@@ -1,5 +1,5 @@
 import turtle
-import ball_trajectory as ball_t
+import modules.ball_trajectory as ball_t
 
 #----------score-variables---------#
 
