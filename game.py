@@ -7,12 +7,12 @@ import turtle
 
 #----------Modules-----------------#
 
-import ball
-import score
-import paddles
-import paddles_control
-import ball_trajectory
-import paddle_collisions
+import modules.ball              as  ball
+import modules.score             as  score
+import modules.paddles           as  paddles
+import modules.paddles_control   as  paddles_control
+import modules.ball_trajectory   as  ball_trajectory
+import modules.paddle_collisions as  paddle_collisions
 
 #----------window setup------------#
 
