@@ -10,13 +10,13 @@
 [![python](https://img.shields.io/badge/Python-016c8c?style=f&logo=python&logoColor=yellow)](https://www.python.org/)
 ![Netlify Status](https://api.netlify.com/api/v1/badges/80034408-1313-4786-acbd-fcc665f1c608/deploy-status?logo=netlify)
 
-[![Status](https://img.shields.io/badge/status-active-flat?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
-[![GitHub issues](https://img.shields.io/github/issues/vanpyre/classic-pong?color=flat&label=issues&logo=github&logoColor=red)](https://github.com/vanpyre/classic-pong/issues)
+[![Status](https://img.shields.io/badge/repo_status-WIP-orange?labelolor=black)](https://media.giphy.com/media/61XS37iBats8J3QLwF/giphy.gif)
+[![GitHub issues](https://img.shields.io/github/issues/vanpyre/classic-pong?color=red&label=issues&logo=github&logoColor=red)](https://github.com/vanpyre/classic-pong/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/vanpyre/classic-pong?color=flat&label=pull%20requests&logo=github&logoColor=green)](https://github.com/vanpyre/classic-pong/pulls)
 [![GitHub license](https://img.shields.io/github/license/vanpyre/classic-pong?color=flat&logo=gnu)](https://github.com/vanpyre/classic-pong/blob/main/LICENSE.MD)
-![Travis (.org)](https://img.shields.io/travis/vanpyre/classic-pong?logo=travis&color=red)
+![Travis (.org)](https://img.shields.io/travis/vanpyre/classic-pong?logo=travis&color=white)
 [![Open Source](https://badgen.net/badge/Open%20Source%20/Yes%21/green?icon=https://www.vectorlogo.zone/logos/opensource/opensource-icon.svg)](https://github.com/OpenSourceOrg)
-[![vscode](https://img.shields.io/badge/IDE-VSCODE-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
+[![vscode](https://img.shields.io/badge/FOR_CODING-gray?style=flat&labelColor=gray&logo=visual-studio-code&logoColor=blue)](https://code.visualstudio.com/)
 
 
 
