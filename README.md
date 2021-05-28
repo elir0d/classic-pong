@@ -1,7 +1,7 @@
 <p align="center">
    <a href="" rel="noopener">
    <img width=400px height=300px src=
-      "https://raw.githubusercontent.com/vanpyre/classic-pong/main/images/logo.jpg"
+      "https://raw.githubusercontent.com/vanpyre/classic-pong/main/image/logo.jpg"
        alt="Project logo"></a>
 </p>
 
