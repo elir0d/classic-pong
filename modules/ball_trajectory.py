@@ -1,10 +1,11 @@
 import turtle
 import modules.ball as ball
+import sound.sound_effects as sounds
 
 #----------Speed and Directions------#
 
-ball_dx = ball.element.dx = 0.5
-ball_dy = ball.element.dy = 0.5
+ball_dx = ball.element.dx = 0.1
+ball_dy = ball.element.dy = 0.1
 
 ball_speed = 0.1
 
@@ -35,7 +36,7 @@ def border_checker_y():
     if ball.element.ycor() > 290:
         ball.element.sety(290)
         ball_dy *= -1
-    
+
     if ball.element.ycor() < -290:
         ball.element.sety(-290)
         ball_dy *= -1
