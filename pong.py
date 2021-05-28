@@ -10,6 +10,7 @@ import turtle
 import modules.ball              as ball
 import modules.paddles           as paddles
 import modules.scoreboard        as scoreboard
+import modules.window_menu       as window_menu
 import modules.paddles_control   as paddles_control
 import modules.ball_trajectory   as ball_trajectory
 import modules.paddle_collisions as paddle_collisions
@@ -30,6 +31,8 @@ window.onkeypress(paddles_control.paddle_left_down, "s")
 window.onkeypress(paddles_control.paddle_right_up, "Up")
 window.onkeypress(paddles_control.paddle_right_down, "Down")
 
+window.onkeypress(window_menu.exit_pong, "Escape")
+
 #----------Maingame loop-----------#
 def main():
     while True:
@@ -47,6 +50,7 @@ def main():
         ball_trajectory.border_checker_y()
         ball_trajectory.border_checker_x()
         paddle_collisions.collisions()
+
         
 if __name__ == "__main__":
     main()

@@ -1,5 +1,6 @@
 import turtle
 import modules.ball as ball
+import sound.sound_effects as sounds
 
 #----------Speed and Directions------#
 
@@ -8,12 +9,12 @@ ball_dy = ball.element.dy = 0.1
 
 ball_speed = 0.1
 
-"""-------------------------------------------------------
-| This two variables are responsible to send the results |
-| of each border collision to "score" module this help   |
-| "score" module to tracking de current score and update |
-| in the scoreboard.                                     |
-------------------------------------------------------"""
+"""----------------------------------------------------------
+| This two variables are responsible to send the results    |
+| of each border collision to "scoreboard" module this      |
+| help "scoreboard" module to tracking de current score and |
+| update in the scoreboard.                                 |
+---------------------------------------------------------"""
 
 A = False # set as global #
 B = False # set as global #
@@ -35,7 +36,7 @@ def border_checker_y():
     if ball.element.ycor() > 290:
         ball.element.sety(290)
         ball_dy *= -1
-    
+
     if ball.element.ycor() < -290:
         ball.element.sety(-290)
         ball_dy *= -1
