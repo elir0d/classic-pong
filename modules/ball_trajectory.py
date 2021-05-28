@@ -3,17 +3,17 @@ import modules.ball as ball
 
 #----------Speed and Directions------#
 
-ball_dx = ball.element.dx = 0.1
-ball_dy = ball.element.dy = 0.1
+ball_dx = ball.element.dx = 0.5
+ball_dy = ball.element.dy = 0.5
 
 ball_speed = 0.1
 
-"""-------------------------------------------------------
-| This two variables are responsible to send the results |
-| of each border collision to "score" module this help   |
-| "score" module to tracking de current score and update |
-| in the scoreboard.                                     |
-------------------------------------------------------"""
+"""----------------------------------------------------------
+| This two variables are responsible to send the results    |
+| of each border collision to "scoreboard" module this      |
+| help "scoreboard" module to tracking de current score and |
+| update in the scoreboard.                                 |
+---------------------------------------------------------"""
 
 A = False # set as global #
 B = False # set as global #
