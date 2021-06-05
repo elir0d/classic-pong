@@ -4,7 +4,7 @@ import os
 import sys
 import time
 import turtle
-
+import fpstimer as FPS
 #----------Modules-----------------#
 
 import modules.ball              as ball
@@ -21,7 +21,7 @@ window = turtle.Screen()
 window.title("Classic Pong")
 window.bgcolor("Black")
 window.setup(width=800, height=600)
-window.tracer(0)
+window.tracer(0, 0)
 
 #----------window changes----------#
 
@@ -37,6 +37,7 @@ window.onkeypress(window_menu.exit_pong, "Escape")
 def main():
     while True:
         # window FTP
+        FPS.FPSTimer(60)
         window.update()
 
         # Ball Movement
@@ -50,6 +51,8 @@ def main():
         ball_trajectory.border_checker_y()
         ball_trajectory.border_checker_x()
         paddle_collisions.collisions()
+
+        window.update()
 
 if __name__ == "__main__":
     main()
