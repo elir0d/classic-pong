@@ -1,6 +1,6 @@
 import turtle
-import modules.ball as b
 import modules.paddles as p
+import modules.ball_element as be
 import modules.ball_trajectory as bd
 import sound.sound_effects as sound_effects
 
@@ -13,16 +13,16 @@ import sound.sound_effects as sound_effects
 
 #----------Paddle Collision checker----------------#
 def collisions():
-    if (b.e.xcor() < -340 and  b.e.xcor() > -350) and\
-       (b.e.ycor() < p.lp.ycor() + 40 and b.e.ycor() > p.lp.ycor() -40):
+    if (be.ball.xcor() < -340 and  be.ball.xcor() > -350) and\
+       (be.ball.ycor() < p.lp.ycor() + 40 and be.ball.ycor() > p.lp.ycor() -40):
             
-            b.e.setx(-340)
+            be.ball.setx(-340)
             bd.ball_dx *= -1
             sound_effects.play(0)
 
-    if (b.e.xcor() > 340 and  b.e.xcor() < 350) and\
-       (b.e.ycor() < p.rp.ycor() + 40 and b.e.ycor() > p.rp.ycor() -40):
+    if (be.ball.xcor() > 340 and  be.ball.xcor() < 350) and\
+       (be.ball.ycor() < p.rp.ycor() + 40 and be.ball.ycor() > p.rp.ycor() -40):
             
-            b.e.setx(340)
+            be.ball.setx(340)
             bd.ball_dx *= -1
             sound_effects.play(1)
