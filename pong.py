@@ -5,15 +5,17 @@ import sys
 import time
 import turtle
 import fpstimer as FPS
+
 #----------Modules-----------------#
 
-import modules.ball              as ball
-import modules.paddles           as paddles
-import modules.scoreboard        as scoreboard
-import modules.window_menu       as window_menu
-import modules.paddles_control   as paddles_control
-import modules.ball_trajectory   as ball_trajectory
-import modules.paddle_collisions as paddle_collisions
+import modules.paddles                as paddles
+import modules.scoreboard             as scoreboard
+import modules.window_menu            as window_menu
+import modules.ball_element           as ball_element
+import modules.paddles_control        as paddles_control
+import modules.ball_trajectory        as ball_trajectory
+import modules.paddle_collisions      as paddle_collisions
+import modules.artificial_inteligence as artifial_inteligence
 
 #----------window setup------------#
 
@@ -51,6 +53,9 @@ def main():
         ball_trajectory.border_checker_y()
         ball_trajectory.border_checker_x()
         paddle_collisions.collisions()
+
+        # AI control - Player B only
+        artifial_inteligence.ai_control()
 
         window.update()
 
