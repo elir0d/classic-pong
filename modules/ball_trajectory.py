@@ -1,13 +1,7 @@
-import turtle
 import modules.ball_element as be
 import sound.sound_effects as sounds
 
 #----------Speed and Directions------#
-
-ball_dx = be.ball.dx = 0.1
-ball_dy = be.ball.dy = 0.1
-
-ball_speed = 0.1
 
 """----------------------------------------------------------
 | This two variables are responsible to send the results    |
@@ -21,42 +15,35 @@ B = False # set as global #
 
 #----------X and Y functions---------#
 
-def ball_x():
-    ball_x = be.ball.xcor()
-    ball_x = be.ball.setx(ball_x + ball_dx)
+def ball_x(ball):
+    ball.setx(ball.xcor() + ball.dx)
 
-def ball_y():
-    ball_y = be.ball.ycor()
-    ball_y = be.ball.sety(ball_y + ball_dy)
+def ball_y(ball):
+    ball.sety(ball.ycor() + ball.dy)
 
 #----------Border Collision check-----#
 
-def border_checker_y():
-    global ball_dy, ball_dx
-    if be.ball.ycor() > 290:
-        be.ball.sety(290)
-        ball_dy *= -1
+def border_checker_y(ball):
+    if ball.ycor() > 290:
+        ball.sety(290)
+        ball.dy *= -1
 
-    if be.ball.ycor() < -290:
-        be.ball.sety(-290)
-        ball_dy *= -1
+    if ball.ycor() < -290:
+        ball.sety(-290)
+        ball.dy *= -1
 
-def border_checker_x():
-    global ball_dy, ball_dx, A, B
-    if be.ball.xcor() > 390:
-        be.ball.goto(0, 0)
-        ball_dx *= -1
+def border_checker_x(ball):
+    global A, B
+    if ball.xcor() > 390:
+        ball.goto(0, 0)
+        ball.dx *= -1
         A = True
 
-    if be.ball.xcor() < -390:
-        be.ball.goto(0, 0)
-        ball_dx *= -1
+    if ball.xcor() < -390:
+        ball.goto(0, 0)
+        ball.dx *= -1
         B = True
 
-
-
 #prototype for increase speed after certain score#
-# ball_dx += ball_speed
-# ball_dx += -ball_speed
-    
-
+# ball.dx += ball_speed
+# ball.dx += -ball_speed
