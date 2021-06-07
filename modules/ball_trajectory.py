@@ -22,7 +22,7 @@ def ball_y(ball):
     ball.sety(ball.ycor() + ball.dy)
 
 #----------Border Collision check-----#
-
+'''FIXME-ISSUE-36'''
 def border_checker_y(ball):
     if ball.ycor() > 290:
         ball.sety(290)
