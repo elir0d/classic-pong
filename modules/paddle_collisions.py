@@ -8,7 +8,7 @@ import sound.sound_effects as sound_effects
 |   rp == right_paddle      |
 |   lp == left_paddle       |
 --------------------------"""
-
+''' FIXME-ISSUE-36'''
 #----------Paddle Collision checker----------------#
 def collisions(ball):
     if (ball.xcor() < -340 and  ball.xcor() > -350) and\

@@ -24,6 +24,11 @@ window.bgcolor("Black")
 window.setup(width=800, height=600)
 window.tracer(0, 0)
 
+'''-----------------TODO:---------------------
+| [] Fix ball FPS in the main loop            |
+| [] FIx ball collisions in the borderchecker |
+--------------------------------------------'''
+
 #----------window changes----------#
 
 window.listen()
@@ -37,7 +42,8 @@ window.onkeypress(window_menu.exit_pong, "Escape")
 #----------Maingame loop-----------#
 def main():
     while True:
-        # window FTP
+        #FIXME-ISSUE-37#
+        # window FPS 
         time.sleep(1 / 60)
         window.update()
 
