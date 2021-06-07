@@ -4,7 +4,6 @@ import os
 import sys
 import time
 import turtle
-import fpstimer as FPS
 
 #----------Modules-----------------#
 
@@ -39,25 +38,27 @@ window.onkeypress(window_menu.exit_pong, "Escape")
 def main():
     while True:
         # window FTP
-        FPS.FPSTimer(60)
+        time.sleep(1 / 60)
         window.update()
 
-        # Ball Movement
-        ball_trajectory.ball_x()
-        ball_trajectory.ball_y()
+        for ball in ball_element.balls:
 
-        # Tracking score after check each collisions
-        scoreboard.score_tracking()
+            # Ball Movement
+            ball_trajectory.ball_x(ball)
+            ball_trajectory.ball_y(ball)
+            window.update()
 
-        # colissions checker
-        ball_trajectory.border_checker_y()
-        ball_trajectory.border_checker_x()
-        paddle_collisions.collisions()
+            # Tracking score after check each collisions
+            scoreboard.score_tracking()
 
-        # AI control - Player B only
-        artifial_inteligence.ai_control()
+            # colissions checker
+            ball_trajectory.border_checker_y(ball)
+            ball_trajectory.border_checker_x(ball)
+            paddle_collisions.collisions(ball)
+            window.update()
 
-        window.update()
+            # AI control - Player B only
+            artifial_inteligence.ai_control(ball)
 
 if __name__ == "__main__":
     main()
