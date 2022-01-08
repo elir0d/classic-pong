@@ -119,7 +119,7 @@ Add additional notes about how to deploy this on a live system.
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@wynand1004](https://github.com/wynand1004) - Idea & Initial work
-- [@vanpyre](https://github.com/vanpyre) - Further improvements & updates
+- [@elir0d](https://github.com/vanpyre) - Further improvements & updates
 
 <!-- See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project. -->
 
